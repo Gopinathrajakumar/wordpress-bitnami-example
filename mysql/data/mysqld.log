@@ -1,0 +1,54 @@
+2018-08-03T20:27:04.195210Z mysqld_safe Logging to '/home/jesusda91/wordpress-4.9.8-0/mysql/data/mysqld.log'.
+2018-08-03T20:27:04.215279Z mysqld_safe Starting mysqld.bin daemon with databases from /home/jesusda91/wordpress-4.9.8-0/mysql/data
+2018-08-03T20:27:04.223266Z 0 [Warning] Changed limits: max_open_files: 1024 (requested 5000)
+2018-08-03T20:27:04.223320Z 0 [Warning] Changed limits: table_open_cache: 431 (requested 2000)
+2018-08-03T20:27:04.372237Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-08-03T20:27:04.372277Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-08-03T20:27:04.372293Z 0 [Note] /home/jesusda91/wordpress-4.9.8-0/mysql/bin/mysqld.bin (mysqld 5.7.23) starting as process 8283 ...
+2018-08-03T20:27:04.376107Z 0 [Note] InnoDB: PUNCH HOLE support available
+2018-08-03T20:27:04.376126Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-08-03T20:27:04.376131Z 0 [Note] InnoDB: Uses event mutexes
+2018-08-03T20:27:04.376135Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2018-08-03T20:27:04.376140Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-08-03T20:27:04.376144Z 0 [Note] InnoDB: Using Linux native AIO
+2018-08-03T20:27:04.376297Z 0 [Note] InnoDB: Number of pools: 1
+2018-08-03T20:27:04.376359Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-08-03T20:27:04.377311Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-08-03T20:27:04.382935Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-08-03T20:27:04.384461Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2018-08-03T20:27:04.395988Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-08-03T20:27:04.410141Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-08-03T20:27:04.410223Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-08-03T20:27:04.446141Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-08-03T20:27:04.446801Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-08-03T20:27:04.446809Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-08-03T20:27:04.447370Z 0 [Note] InnoDB: Waiting for purge to start
+2018-08-03T20:27:04.497579Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 2588944
+2018-08-03T20:27:04.497860Z 0 [Note] InnoDB: Loading buffer pool(s) from /home/jesusda91/wordpress-4.9.8-0/mysql/data/ib_buffer_pool
+2018-08-03T20:27:04.497983Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-08-03T20:27:04.500228Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180803 15:27:04
+2018-08-03T20:27:04.504584Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-08-03T20:27:04.504610Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3307
+2018-08-03T20:27:04.504632Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-08-03T20:27:04.504667Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-08-03T20:27:04.512217Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:04.512255Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:04.512273Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:04.512302Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:04.512313Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:04.512332Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:04.514246Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:04.514280Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:04.523299Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-08-03T20:27:04.523566Z 0 [Note] /home/jesusda91/wordpress-4.9.8-0/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.23'  socket: '/home/jesusda91/wordpress-4.9.8-0/mysql/tmp/mysql.sock'  port: 3307  MySQL Community Server (GPL)
+2018-08-03T20:27:34.749346Z 4 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:34.749381Z 4 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:34.749396Z 4 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:34.749409Z 4 [Warning] 'user' entry 'bn_wordpress@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:34.749439Z 4 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:34.749448Z 4 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:34.749456Z 4 [Warning] 'db' entry 'bitnami_wordpress bn_wordpress@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:34.749473Z 4 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:34.749796Z 4 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-08-03T20:27:34.749814Z 4 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.

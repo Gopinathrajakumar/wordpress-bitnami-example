@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/jesusda91/wordpress-4.9.8-0/scripts/setenv.sh
+
+exec /home/jesusda91/wordpress-4.9.8-0/php/sbin/.php-fpm.bin -y /home/jesusda91/wordpress-4.9.8-0/php/etc/php-fpm.conf -p /home/jesusda91/wordpress-4.9.8-0/php/var/ -c /home/jesusda91/wordpress-4.9.8-0/php/etc/php.ini "$@"
