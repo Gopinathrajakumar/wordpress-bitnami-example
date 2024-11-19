@@ -95,9 +95,8 @@ if ( defined( 'WP_CLI' ) ) {
     $_SERVER['HTTP_HOST'] = 'localhost';
 }
 
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
-
+define( 'WP_HOME', 'http://15.206.73.28/' );
+define( 'WP_SITEURL', 'http://15.206.73.28/' );
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
